@@ -1,8 +1,8 @@
 const path = require('path')
 const express = require('express')
 // const hbs = require('hbs')
-const geocode = require('./src/utils/geocode')
-const forecast = require('./src/utils/forecast')
+const geocode = require('./server/utils/geocode')
+const forecast = require('./server/utils/forecast')
 const cors = require('cors')
 
 const app = express()
